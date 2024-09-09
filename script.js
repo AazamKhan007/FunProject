@@ -1,6 +1,6 @@
 function startProcess() {
     // Ask for name1 after the link is clicked
-    var name1 = prompt("Please enter a name:");
+    var name1 = prompt("Please enter your name:");
     if (!name1 || name1.trim() === "") {
         alert("You need to enter a valid name.");
         return;
